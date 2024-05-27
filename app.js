@@ -44,4 +44,4 @@ app.get('/restaurants', function(req,res){
     res.render('restaurants',{numberOfRestaurants: storedRestaurants.length, restaurants: storedRestaurants});
 });
 
-app.listen(80);
+app.listen(3000);
